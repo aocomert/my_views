@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/dp10">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp30"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/img"
+            android:layout_width="@dimen/dp40"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="0"
+            app:roundingBorderColor="@color/a_black11"
+            app:actualImageScaleType="fitCenter"
+            app:roundingBorderWidth="@dimen/dp1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            app:autoSizeMaxTextSize="@dimen/dp12"
+            app:autoSizeMinTextSize="@dimen/dp4"
+            app:autoSizeStepGranularity="@dimen/dp1"
+            app:autoSizeTextType="uniform"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="@dimen/dp3"
+            android:paddingRight="@dimen/dp3"
+            android:textColor="@drawable/text_black"
+            android:textSize="@dimen/dp12" />
+
+    </LinearLayout>
+
+</LinearLayout>

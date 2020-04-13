@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.github.mmin18.widget.RealtimeBlurView
+        android:id="@+id/lay_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:realtimeBlurRadius="20dp"
+        app:realtimeOverlayColor="#8FFF" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/dp20"
+        android:background="@drawable/back_rnd_white"
+        android:elevation="@dimen/dp10"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dp30"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dp5"
+            android:paddingRight="@dimen/dp5">
+
+            <LinearLayout
+                android:id="@+id/top_left"
+                android:layout_width="@dimen/dp30"
+                android:layout_height="@dimen/dp30"
+                android:layout_weight="0"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/img_left"
+                    android:layout_width="@dimen/dp30"
+                    android:layout_height="@dimen/dp30"
+                    android:duplicateParentState="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:autoSizeMaxTextSize="@dimen/dp15"
+                    app:autoSizeMinTextSize="@dimen/dp8"
+                    app:autoSizeStepGranularity="@dimen/dp2"
+                    app:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:padding="@dimen/dp3"
+                    android:textAllCaps="true"
+                    android:textColor="@color/a_main21"
+                    android:textSize="@dimen/dp15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/top_right"
+                android:layout_width="@dimen/dp30"
+                android:layout_height="@dimen/dp30"
+                android:layout_weight="0"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/img_right"
+                    android:layout_width="@dimen/dp30"
+                    android:layout_height="@dimen/dp30"
+                    android:duplicateParentState="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dp1"
+            android:background="@color/a_black11" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/dp2"
+            android:scrollbars="none" />
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="a_grad11">#FF8f4e76</color>
+    <color name="a_grad12">#888f4e76</color>
+    <color name="a_grad21">#FFae6882</color>
+    <color name="a_grad22">#88ae6882</color>
+
+    <color name="a_option1">#FF051a4f</color>
+    <color name="a_option2">#88051a4f</color>
+    <color name="a_back">#FFf5f5f5</color>
+    <color name="a_back1">#CCf5f5f5</color>
+    <color name="a_back2">#88f5f5f5</color>
+    <color name="a_main11">#FFd26aaa</color>
+    <color name="a_main12">#88d26aaa</color>
+    <color name="a_sub11">#FF1cb84c</color>
+    <color name="a_sub12">#881cb84c</color>
+    <color name="a_main13">#44d26aaa</color>
+    <color name="a_main14">#22d26aaa</color>
+    <color name="a_main21">#FF7361ab</color>
+    <color name="a_main22">#887361ab</color>
+    <color name="a_main23">#447361ab</color>
+    <color name="a_main24">#227361ab</color>
+    <color name="a_main31">#FFaa4f70</color>
+    <color name="a_main32">#88aa4f70</color>
+    <color name="a_main41">#FF171719</color>
+    <color name="a_main42">#88171719</color>
+    <color name="a_main51">#FF262629</color>
+    <color name="a_main52">#88262629</color>
+    <color name="a_main61">#FF307fac</color>
+    <color name="a_main62">#88307fac</color>
+    <color name="a_main71">#FF203355</color>
+    <color name="a_main72">#88203355</color>
+    <color name="a_main81">#FF3993da</color>
+    <color name="a_main82">#883993da</color>
+    <color name="a_main91">#FF36ddff</color>
+    <color name="a_main92">#8836ddff</color>
+    <color name="a_white11">#FFFFFFFF</color>
+    <color name="a_white12">#88FFFFFF</color>
+    <color name="a_white13">#44FFFFFF</color>
+    <color name="a_white14">#22FFFFFF</color>
+    <color name="a_black11">#FF000000</color>
+    <color name="a_black12">#88000000</color>
+    <color name="a_black13">#44000000</color>
+    <color name="a_black14">#22000000</color>
+    <color name="a_black15">#AA000000</color>
+    <color name="a_gray11">#FF292c36</color>
+    <color name="a_gray12">#88292c36</color>
+    <color name="a_gray21">#FF454545</color>
+    <color name="a_gray22">#88454545</color>
+    <color name="a_gray31">#FF929292</color>
+    <color name="a_gray32">#88929292</color>
+    <color name="a_gray41">#FFDFDFDF</color>
+    <color name="a_gray42">#88DFDFDF</color>
+    <color name="a_tab_white1">#11FFFFFF</color>
+    <color name="a_tab_white2">#22FFFFFF</color>
+    <color name="a_tab_white4">#44FFFFFF</color>
+    <color name="a_tab_white6">#66FFFFFF</color>
+    <color name="a_error11">#FFff5b40</color>
+    <color name="a_error12">#88ff5b40</color>
+    <color name="a_warning11">#FFddb004</color>
+    <color name="a_warning12">#88ddb004</color>
+    <color name="a_success11">#FF06AF87</color>
+    <color name="a_success12">#8806AF87</color>
+    <color name="a_gray4">#FF131315</color>
+    <color name="a_gray5">#FF3a3e44</color>
+    <color name="a_darkblue1">#FF202125</color>
+    <color name="a_darkblue2">#88202125</color>
+
+    <color name="quick_action_shadow_color">#64000000</color>
+
+    <color name="today_border">#e4e4e4</color>
+    <color name="today_background">#85f7f7f7</color>
+    <color name="colorPrimary">#37474f</color>
+    <color name="secundaryTextColor">#757575</color>
+    <color name="primaryTextColor">#4d4d4d</color>
+    <color name="colorHover">#30818181</color>
+
+    <color name="a_link">#2f477a</color>
+
+    <color name="bottom_lib_dialog_item_text_color">#c60c3b</color>
+    <color name="bottom_lib_dialog_title_text_color">#307fac</color>
+    <color name="bottom_lib_dialog_cancel_text_color">#000000</color>
+    <color name="windowBackground">#1C1C1C</color>
+    <color name="colorAccent">#5DAC81</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="divider">#333333</color>
+    <color name="transparent_blue">#322100c8</color>
+    <color name="text_helper_color">#a8a8a8</color>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.github.mmin18.widget.RealtimeBlurView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:realtimeBlurRadius="20dp"
+        app:realtimeOverlayColor="#8FFF" />
+
+    <LinearLayout
+        android:layout_margin="@dimen/dp20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/but_rnd_str_black3_white"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dp15"
+            android:textColor="@color/a_black11"
+            android:textSize="@dimen/dp20"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:background="@color/a_black12" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="100">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:padding="@dimen/dp5"
+                android:text="@string/s_cancel"
+                android:textColor="@drawable/text_option"
+                android:textSize="@dimen/dp20" />
+
+            <View
+                android:layout_width="@dimen/dp1"
+                android:layout_height="match_parent"
+                android:background="@color/a_black12" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_call"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:padding="@dimen/dp5"
+                android:text="@string/s_call"
+                android:textColor="@drawable/text_option"
+                android:textSize="@dimen/dp20"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

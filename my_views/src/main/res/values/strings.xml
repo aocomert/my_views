@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s_close">Kapat</string>
+    <string name="s_successful">Başarılı İşlem !</string>
+    <string name="s_warning">Uyarı !</string>
+    <string name="s_error">Hata !</string>
+    <string name="s_share">Paylaş...</string>
+    <string name="s_loading">Yükleniyor...</string>
+    <string name="s_cancel">Vazgeç</string>
+    <string name="s_call">Ara</string>
+    <string name="s_please_select_country">Select Your Country</string>
+
+</resources>
