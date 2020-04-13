@@ -39,7 +39,7 @@ public class MyWebContentDialog extends Dialog {
 
 		this.title = title;
 		ViewStub stub = findViewById(R.id.lay_stub);
-		stub.setLayoutResource(R.layout.b_top_img_txt_emp);
+		stub.setLayoutResource(R.layout.b_top_img_txt_img);
 		stub.inflate();
 
 		TextView tv_title = findViewById(R.id.tv_title);
